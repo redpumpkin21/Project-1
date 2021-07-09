@@ -1,0 +1,1 @@
+$.ajax('./json/projects.json')
