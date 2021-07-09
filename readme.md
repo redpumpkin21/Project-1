@@ -5,25 +5,28 @@ You are **responsible** for scheduling time with your squad to seek approval for
 |  Day | Deliverable | Status
 |---|---| ---|
 |Day 1| Project Description | Incomplete
-|Day 1| Wireframes / Priority Matrix / Timeline | Incomplete
-|Day 3| Core Application Structure (HTML, CSS, etc.) | Incomplete
-|Day 4| MVP & Bug Fixes | Incomplete
-|Day 5| Final Touches | Incomplete
-|Day 6| Present | Incomplete
+|Day  1-3| Wireframes / Priority Matrix / Timeline | Incomplete
+|Day 4| Core Application Structure (HTML, CSS, etc.) | Incomplete
+|Day 5-6| MVP & Bug Fixes | Incomplete
+|Day 6| Final Touches | Incomplete
+|Day 7| Present | Incomplete
 ## Project Description
-Use this section to describe your final project and perhaps any links to relevant sites that help convey the concept and\or functionality.
+I want to make it minimalist. Minamlist design apeases to me more, looks more aesthetically pleasing. https://mars.nasa.gov/ similar to this with my carrousal except I want to implement it in the middle on the desktop version. Their mobile is how I want it to be. but I want to have the hamburger top right with about me, contact, and 'resume - resume link similar to https://sakshamkapoor.me/' 
+Then, on the bottom  of the website have another thing like the hamburger but spread across the page. which houses the social media icons
+
+Desktop wisehttp://capauwels.com/ Like how they have their design layout for the middle. but I want to put their about and stuff at the bottom. Then the social media is going to have to be on top right http://briandelaney.me/. 
 ## Portfolio I want to Emulate
 Search and compare at least 3 profile web sites.  Record your findings in the table below and include some aspect of the site that you would like to incorporate into your own site.
 Link To Site  | One Thing I'd Like To Incorporate | 
 | ------------- | ------------- |
-| [denisechandler.com](http://www.denisechandler.com/)%7C landing page animation
-|[jkeohan.com](http://jkeohan.com/) | mouseover on a project triggers animations |
-| [mattfarley.ca](http://mattfarley.ca/) |  layout of the projects
+| [sakshamkapoor.me](https://sakshamkapoor.me/) | resume link
+|[capauwels.com](http://capauwels.com/) | lay out of page|
+| [briandelaney.me](http://briandelaney.me/) |  layout of socil media quotes
 ---
 ## Wireframes
 Upload images of wireframe to cloudinary and add the link here with a description of the specific wireframe. Do not include the actual image and have it render on the page.  
-- [Mobile](https://i.imgur.com/P3iBEZf.jpg)
-- [Desktop](https://i.imgur.com/xpOWo0E.jpg)
+- [Mobile](https://res.cloudinary.com/dx3a3l6k0/image/upload/v1625866748/Handwritten_2021-07-09_173715_oxvjau.jpg)
+- [Desktop](https://res.cloudinary.com/dx3a3l6k0/image/upload/v1625866389/Receipt_2021-07-09_172232_ophnrq.jpg)
 Wireframing Resources:
 - [Mockflow](https://mockflow.com/app/#Wireframe)
 - [Figma](https://www.figma.com/)
@@ -48,25 +51,31 @@ Time frames are also key in the development cycle.  You have limited time to cod
 #### MVP
 | Component | Priority | Estimated Time | Actual Time |
 | --- | :---: |  :---: | :---: | 
-| Hamburger | H | 1hr | hr |
+| Hamburger | H | 3hr | hr |
 | Project Previews | H | 3hr | hr |
-| Regular Nav | H | 1hr | hr |  
-| Adding Form | H | 1.5hr|  hr | 
-| Other sections and flex| M | 3hr | hr|
-| Working with API | H | 3hrs|  hr | 
-| Responsive | H | 3hr | hr | hr |
-| Social Media Icons | L | 1hr |  hr |
-| Total | H | 15.5hrs| hrs |
+| Regular Nav | H | 3hrs | hr |  
+| Adding Form | L | 2hrs|  hr | 
+| mobile flex| h | 3hrs | hr|
+| desktop flex| h | 3hrs | hr|
+| carrousal | H | 3hrs|  hr | 
+| @media| H | 3hrs | hr | hr |
+| button| h | 1hr| hr|
+| outside link resume| M | 2hrs |  hr |
+| resume/socialmedia icons | M | 2hrs | hr |
+| link social media icons| M | 3hrs |  hr |
+| animation |  L | 3 Hrs | hr|
+| scroll snap| H| 3hrs | hr|
+| card space/dummy| H | 1 hr| hr|
+| Total | H | 38hrs| hrs |
 #### PostMVP
 | Component | Priority | Estimated Time | Actual Time |
 | --- | :---: |  :---: | :---: | 
-| Project Hover | L | 3hr | -hr | hr |
-| Banner letters wiggle | L | 1hr | hr |
-| Interactive Banner | M | 4hr | hr |
-| Materialize | H | 4hr | -hr | hr |
-| Bootstrap | H | 4hr | hr |
-| Make own icon | L | 4hr | hr |
-| Total | H | 20hrs| hrs |
+|  implement self made logo| L | 1.5hr |  hr |
+|  make logo | L | 1hr |  hr |
+| tailwind or bootstrap| H | 3hr | hr |
+| indecisiveness |  H | 3 Hr | hr|
+|other| L | 3hr| hr
+| Total | H | 11.5hrs| hrs |
 ## Additional Libraries
  Use this section to list all supporting libraries and thier role in the project. 
 ## Code Snippet
