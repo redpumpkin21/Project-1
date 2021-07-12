@@ -49,26 +49,28 @@ div.carousel-inner{
 
  .fas.fa-angle-right{
      font-size: 250%;
-     padding-left: 3%;
+     padding-left: 3vw;
  }
 
  p {
      text-align: center;
-     margin-top: 15%;
-     margin-left: 23%;
+     margin-top: 15vw;
+     margin-left: 23vw;
      padding: 0;
-     width: 200px;
-     display: block
+     width: 60vw;
+     display: block;
+     position: relative;
      }
 
 
-     @media only screen and (min-width: 768px), screen and (min-height: 1320px){ 
+@media only screen and (min-width: 768px){ 
        body{
                
         background-color: black;
      }
 
-     @media only screen and (min-width: 1024px){
+    }
+ @media only screen and (min-width: 1024px){
         body{
             background-color: red;
             height: auto;
@@ -76,4 +78,11 @@ div.carousel-inner{
         header{
             height: 1px;
         }
-     }
+        i.fas.fa-bars{
+            display: none;
+        }
+        .fas.fa-angle-right{
+            display: none
+        }
+    }
+    
