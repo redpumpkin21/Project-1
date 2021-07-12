@@ -1,7 +1,8 @@
 body {
     background-color: #95999C;
     color: #171717;
-    height: 686px;
+    height: 630px;
+    overflow: hidden;
 } 
 
  i.fas.fa-bars{
@@ -11,25 +12,26 @@ body {
 }
 
 div#carouselIndicators {
-    height: 686px;
+    min-height: 630px;
 
 
  }
 
 header{
-max-height: 636px ;
+max-height: 630px ;
 }
  
-.carousel-inner{
-    top: 40%;
+div.carousel-inner{
+    /* top: 70%; */
+    padding-top: 20%;
+    margin-top: 20%;
 }
-
-ol.carousel-indicators{
-    top: 170%;
+.carousel-indicators{
+    top: 75%;
 }
 .carousel-control-prev{
-    top: 130%
+    top: 5%
 }
 .carousel-control-next{
-    top: 130%;
+    top: 5%;
 }
