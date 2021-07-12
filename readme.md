@@ -25,13 +25,13 @@ Link To Site  | One Thing I'd Like To Incorporate |
 ---
 ## Wireframes
 Upload images of wireframe to cloudinary and add the link here with a description of the specific wireframe. Do not include the actual image and have it render on the page.  
-- [Mobile](https://res.cloudinary.com/dx3a3l6k0/image/upload/v1625866748/Handwritten_2021-07-09_173715_oxvjau.jpg)
+- mobile [Mobile](https://res.cloudinary.com/dx3a3l6k0/image/upload/v1625866748/Handwritten_2021-07-09_173715_oxvjau.jpg)
 - [Desktop](https://res.cloudinary.com/dx3a3l6k0/image/upload/v1625866389/Receipt_2021-07-09_172232_ophnrq.jpg)
 Wireframing Resources:
 - [Mockflow](https://mockflow.com/app/#Wireframe)
 - [Figma](https://www.figma.com/)
 ## Time/Priority Matrix 
-[Link](https://res.cloudinary.com/jkeohan/image/upload/a_270/v1591621734/project1_matrix_ocy5gc_h1kg0m.jpg)
+[My graph](https://res.cloudinary.com/dx3a3l6k0/image/upload/v1626100294/Handwritten_2021-07-12_102819_rq5ikn.jpg)
 Include a full list of features that have been prioritized based on the `Time and Priority` Matix.  This involves drawing a a square.  In the middle of the square, on the x axis draw a line.  The most left part of the line should start with 0hrs and the end of the line should include 2hrs.  This line will be used to estimate how much time any one feature will take to complete. 
 Now draw a vertical line on the y axis.  The top of this line should have `High` and the bottom `Low`.  This line will be used to assign a priority to to each feature you wish to include in the project.  
 Now create a separate list starting with A and assign it one of the features.  Continue to assign each feature a letter.  Once complete add each letter to the matrix assigning based on what your feel it's prioirty is an how long it will take to implement. If any one feature takes longer than 2hrs to complete than break it down into smaller tasks and reassign them a new letter. 
@@ -51,7 +51,7 @@ Time frames are also key in the development cycle.  You have limited time to cod
 #### MVP
 | Component | Priority | Estimated Time | Actual Time |
 | --- | :---: |  :---: | :---: | 
-| Hamburger | H | 3hr | hr |
+| Hamburger | H | 3hr | .5hr |
 | Project Previews | H | 3hr | hr |
 | Regular Nav | H | 3hrs | hr |  
 | Adding Form | L | 2hrs|  hr | 

@@ -1,0 +1,35 @@
+body {
+    background-color: #95999C;
+    color: #171717;
+    height: 686px;
+} 
+
+ i.fas.fa-bars{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+div#carouselIndicators {
+    height: 686px;
+
+
+ }
+
+header{
+max-height: 636px ;
+}
+ 
+.carousel-inner{
+    top: 40%;
+}
+
+ol.carousel-indicators{
+    top: 170%;
+}
+.carousel-control-prev{
+    top: 130%
+}
+.carousel-control-next{
+    top: 130%;
+}
