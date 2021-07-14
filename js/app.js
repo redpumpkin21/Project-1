@@ -47,9 +47,7 @@ $.ajax("./json/projects.json")
 //  $('.carousel-item').eq(2).addClass('s'){
 //      console.log('glkjsfdjlfdsk')
 //  }
-    $(document).ready(function(){
-        $("div.carousel-item").addClass("active");
-    })
+ 
 
 
     // $(document).ready(function(){
@@ -61,13 +59,13 @@ if (screen.width >= 1024){
     console.log('here')
 }
 
-$('button.social').click((pop) => {
-    alert('YA CLICKED ME')
-})
+// $('button.social').click((pop) => {
+//     alert('YA CLICKED ME')
+// })
 
-$('#about').click((go) => {
-    alert('fix me and scroll snap me so I can get my satisfaction')
-})
+// $('#about').click((go) => {
+//     alert('fix me and scroll snap me so I can get my satisfaction')
+// })
 
 // $('#contact').ready((goagain) => {
 //     contact.querySelector('.contactme').scrollIntoView({
@@ -83,7 +81,12 @@ $('#resume').click((pdf) => {
 
     })
 
-
+$('.social1').click((git) => {
+    window.open("https://github.com/redpumpkin21")
+})
+$('.social2').click((linked) => {
+    window.open('https://www.linkedin.com/in/christopher-johnson-200b38214/')
+})
 
     
     
@@ -125,5 +128,5 @@ $('.carousel-inner').append($div)
 const $img = ("<img>")
 // $("#carouselExampleControls .carousel-inner .carousel-item").first().addClass("active")
 $('div.active').append('<img id="theImg" src="https://scontent-iad3-1.xx.fbcdn.net/v/t1.6435-9/51481961_107610580370434_2485940578596945920_n.jpg?_nc_cat=104&ccb=1-3&_nc_sid=09cbfe&_nc_ohc=sMw64w0tO7oAX_kLoqC&tn=zuNdKbSVZjCTUeWY&_nc_ht=scontent-iad3-1.xx&oh=226e772ff880550768c430508d2b7935&oe=60F45767" />')
-$('div.active').prepend('<p>Click the arrows to see my projects</p>')
+$('div.active').prepend("<p> <h8>Come with me and you'll be in a world of pure imagination</h8></p>")
 $('div.active').prepend('<h3>Me</h3>')
