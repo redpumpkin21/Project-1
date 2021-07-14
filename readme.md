@@ -57,19 +57,20 @@ Time frames are also key in the development cycle.  You have limited time to cod
 | Adding Form | L | 2hrs|  hr | 
 | mobile flex| h | 3hrs | hr|
 | desktop flex| h | 3hrs | hr|
-| carrousal | H | 3hrs|  hr | 
-| @media| H | 3hrs | hr | hr |
-| button| h | 1hr| hr|
-| outside link resume| M | 2hrs |  hr |
-| resume/socialmedia icons | M | 2hrs | hr |
+| carrousal | H | 3hrs|  15hr | 
+| @media| H | 3hrs | hr | 6hr |
+| button| h | 1hr| .5hr|
+| outside link resume| M | 2hrs |  1hr |
+| resume/socialmedia icons | M | 2hrs | 1hr |
 | link social media icons| M | 3hrs |  hr |
-| animation |  L | 3 Hrs | hr|
+
 | scroll snap| H| 3hrs | hr|
 | card space/dummy| H | 1 hr| hr|
 | Total | H | 38hrs| hrs |
 #### PostMVP
 | Component | Priority | Estimated Time | Actual Time |
 | --- | :---: |  :---: | :---: | 
+| animation |  L | 3 Hrs | hr|
 |  implement self made logo| L | 1.5hr |  hr |
 |  make logo | L | 1hr |  hr |
 | tailwind or bootstrap| H | 3hr | hr |
