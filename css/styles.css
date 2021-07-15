@@ -15,13 +15,13 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
      }
-  .cant.sleep{
+  .intro{
 text-align: center;
 padding: 15%;
   }
   header{
       display: grid;
-    grid-template-rows: [row1-start] auto [row1-end] auto [third-line] auto [last-line] auto auto auto;
+    grid-template-rows:  auto  auto  auto  auto  auto  auto;
     gap: 50px ;
   }
   /* .carousel-item{
@@ -30,7 +30,7 @@ padding: 15%;
 .colors{
     background-color:  #6c757d;
 }
-#carouselExampleControls{
+#carouselControls{
     margin-bottom: -50px;
     margin-top: -50px;
 }
@@ -103,8 +103,7 @@ div.dropdown-menu#socialmenu{
 footer{
          display:none
      }
-/* If i put all my divs in a flex column? 
-I could also maybe put a fixed position on the images?*/
+
 
 @media only screen and (min-width: 768px){ 
        body{
@@ -125,7 +124,7 @@ I could also maybe put a fixed position on the images?*/
             width: 80%;
             padding-left: 20%;
         } 
-        .cant.sleep{
+        .intro{
             padding: 5%
         }
         p {
@@ -192,13 +191,13 @@ I could also maybe put a fixed position on the images?*/
          header .navbar-light .navbar#border{
             display:none;
         }
-       .cant.sleep{
+       .intro{
            grid-row-start: 2;
            grid-column-start: 1;
            grid-column-end: 3;
            padding:0;
        }
-       #carouselExampleControls{
+       #carouselControls{
            grid-row-start: 3;
            grid-column-start: 1;
            grid-column-end: 3;

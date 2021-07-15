@@ -4,10 +4,10 @@ This schedule will be used to keep track of your progress throughout the week an
 You are **responsible** for scheduling time with your squad to seek approval for each deliverable by the end of the corresponding day, excluding `Saturday` and `Sunday`.
 |  Day | Deliverable | Status
 |---|---| ---|
-|Day 1| Project Description | Incomplete
-|Day  1-3| Wireframes / Priority Matrix / Timeline | Incomplete
-|Day 4| Core Application Structure (HTML, CSS, etc.) | Incomplete
-|Day 5-6| MVP & Bug Fixes | Incomplete
+|Day 1| Project Description | complete
+|Day  1-3| Wireframes / Priority Matrix / Timeline | complete
+|Day 4| Core Application Structure (HTML, CSS, etc.) | complete
+|Day 5-6| MVP & Bug Fixes | complete
 |Day 6| Final Touches | Incomplete
 |Day 7| Present | Incomplete
 ## Project Description
@@ -53,41 +53,46 @@ Time frames are also key in the development cycle.  You have limited time to cod
 | --- | :---: |  :---: | :---: | 
 | Hamburger | H | 3hr | .5hr |
 | Project Previews | H | 3hr | hr |
-| Regular Nav | H | 3hrs | hr |  
-| Adding Form | L | 2hrs|  hr | 
-| mobile flex| h | 3hrs | hr|
-| desktop flex| h | 3hrs | hr|
+| Regular Nav | H | 3hrs | 1hr |  
+| Adding Form | L | 2hrs|  1hr | 
+| mobile flex| h | 3hrs | 2hr|
+| desktop flex| h | 3hrs |2hr|
 | carrousal | H | 3hrs|  15hr | 
 | @media| H | 3hrs | hr | 6hr |
 | button| h | 1hr| .5hr|
 | outside link resume| M | 2hrs |  1hr |
 | resume/socialmedia icons | M | 2hrs | 1hr |
-| link social media icons| M | 3hrs |  hr |
-
-| scroll snap| H| 3hrs | hr|
-| card space/dummy| H | 1 hr| hr|
-| Total | H | 38hrs| hrs |
+| link social media icons| M | 3hrs | .5 hr |
+| scroll to| H| 3hrs | hr|
+| card space/dummy| H | 1 hr| 10 hr|
+| Total | H | 38hrs| 30.5hrs |
 #### PostMVP
 | Component | Priority | Estimated Time | Actual Time |
 | --- | :---: |  :---: | :---: | 
-| animation |  L | 3 Hrs | hr|
-|  implement self made logo| L | 1.5hr |  hr |
-|  make logo | L | 1hr |  hr |
-| tailwind or bootstrap| H | 3hr | hr |
-| indecisiveness |  H | 3 Hr | hr|
-|other| L | 3hr| hr
-| Total | H | 11.5hrs| hrs |
+| animation |  L | 3 Hrs | 0hr|
+|  implement self made logo| L | 1.5hr | 0 hr |
+|  make logo | L | 1hr |  0hr |
+| tailwind or bootstrap| H | 3hr | 30.5hr |
+| Total | H | 11.5hrs| 30.5hrs |
 ## Additional Libraries
  Use this section to list all supporting libraries and thier role in the project. 
 ## Code Snippet
 Use this section to include a brief code snippet of functionality that you are proud of an a brief description  
 ```
-function reverse(string) {
-	// here is the code to reverse a string of text
-}
+$('#resume').click((pdf) => {
+    window.open('https://drive.google.com/file/d/1ziX7qCm-XjDmpVvqmUpA5yxT51UzaoEP/view?ths=true','mywin','width=500,height=500')
+
+    })
+
+	I am proud of this cause to me this is one of the highest priority/ Writing this I felt like I learned more than I thought.
+
+	const $div = $('<div>').attr('class', 'carousel-item active carousel-item-center')
+$('.carousel-inner').append($div)
 ```
+the div code is the one i am most proud of. Not only did I just find a work around my problem. It also led me to think of new ways to style my page because I hade to add in a new slide that was not a project. Which is why there is a picture of me.
 ## Issues and Resolutions
- Use this section to list of all major issues encountered and their resolution.
-#### SAMPLE.....
-**ERROR**: app.js:34 Uncaught SyntaxError: Unexpected identifier                                
-**RESOLUTION**: Missing comma after first object in sources {} object
+
+Thie really only big issue faced was with bootstrap itself.
+They already have their own scss on their classes so it makes it really difficult to go in and change it. I had to figure out if that class was detrimental to the functionality of what I need vs just creating a new class.
+
+also the biggest issue was with adding another class to my carousel-items. I found a work around which led me to design me page even more.
