@@ -1,19 +1,18 @@
 *{
     box-sizing: border-box;
 }
-html, body{
-        overflow: auto;
-}
+
 body {
      background-color:  #6c757d; 
     color: #171717;
     height: 100vh; 
     height: fit-content;
-    overflow: scroll;
+    
     background-image: url('https://cdn.pixabay.com/photo/2017/03/14/16/57/silver-2143730_1280.jpg');
     display: block;
     background-repeat: no-repeat;
     background-size: cover;
+    border: none
      }
   .intro{
 text-align: center;
@@ -143,7 +142,7 @@ footer{
         body{
             background-image: url('https://cdn.pixabay.com/photo/2017/03/14/16/57/silver-2143730_1280.jpg');
             /* min-height: 1400px; */
-            overflow: scroll;
+            
         }
         header{
             display: grid;
@@ -247,8 +246,24 @@ footer{
             text-align: center;
         }
     }
-    
-
+    @media only screen and (min-width: 1440px){
+        footer{
+            margin-top: 2%
+        }
+    }
+    @media only screen and (min-width: 2000px){
+        footer{
+            margin-top: 25%
+        }
+    }
+    @media only screen and (min-width: 2880px){
+        footer{
+            margin-top: 27%
+        }
+    }
+    @media only screen and (min-width: 3072px){
+        footer{ margin-top: 28%}
+    }
     /* Note:
     - css grid forone columna nd three rows?
     -flex box is done

@@ -62,6 +62,6 @@ $('.social2').click((linked) => {
 const $div = $('<div>').attr('class', 'carousel-item active carousel-item-center')
 $('.carousel-inner').append($div)
 const $img = ("<img>")
-$('div.active').append('<img id="theImg" src="https://scontent-iad3-1.xx.fbcdn.net/v/t1.6435-9/51481961_107610580370434_2485940578596945920_n.jpg?_nc_cat=104&ccb=1-3&_nc_sid=09cbfe&_nc_ohc=sMw64w0tO7oAX_kLoqC&tn=zuNdKbSVZjCTUeWY&_nc_ht=scontent-iad3-1.xx&oh=226e772ff880550768c430508d2b7935&oe=60F45767" />')
+$('div.active').append('<img id="theImg" src="https://res.cloudinary.com/dx3a3l6k0/image/upload/v1632771634/17ECEABF-9306-441B-B481-A7C61060848E_1_105_c_zlxcc1.jpg" />')
 $('div.active').prepend("<p> <h8>Come with me and you'll be in a world of pure imagination</h8></p>")
 $('div.active').prepend('<h3>Me</h3>')
