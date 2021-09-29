@@ -125,6 +125,11 @@ footer{
             width: 80%;
             padding-left: 20%;
         } 
+        .carousel-inner img#theImg{
+            margin-left: 7%;
+            width: 500px;
+            height: 461px;
+        }
         .intro{
             padding: 5%
         }
@@ -160,14 +165,16 @@ footer{
        }
        .carousel-inner img{
         margin: 0;
-        height: 25%;
-        width: 60%;
+        height: 500px;
+        width: 500px;
         float: left;
         margin-left: 8%; 
         padding: 0
     }
     .carousel-inner img#theImg{
-        padding-left: 20%;
+        padding-left: 30%;
+        width: 600px;
+        height: 500px;
     }
        div.carousel-item p {
            text-align: center;
@@ -220,9 +227,9 @@ footer{
        }
         
         
-        /* i.fas.fa-bars{
-            display: none;
-        } */
+       p.description{
+        padding: 5%;
+    }
         .fas.fa-angle-right{
             display: none
         }
@@ -252,15 +259,37 @@ footer{
             text-align: center;
         }
     }
-    
+    @media only screen and (min-width: 1440px){
+        .carousel-inner img#theImg{
+            
+            width: 800px;
+            height: 477px;
+        }
+        p.description{
+            padding: 5%;
+        }
+    }
     @media only screen and (min-width: 2000px){
         footer{
             margin-top: 19%
         }
+        .carousel-inner img#theImg{
+            padding: 0;
+            margin-left: 40%;
+            width: 500px;
+            height: 500px;
+        }
+       
     }
     @media only screen and (min-width: 2880px){
         footer{
             margin-top: 27%
+        }
+        .carousel-inner img#theImg{
+            padding: 0;
+            margin-left: 5%;
+            width: 700px;
+            height: 500px;
         }
     }
     @media only screen and (min-width: 3072px){
