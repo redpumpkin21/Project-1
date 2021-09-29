@@ -46,8 +46,7 @@ $.ajax("./json/projects.json")
 
 
 $('#resume').click((pdf) => {
-    window.open('https://drive.google.com/file/d/1ziX7qCm-XjDmpVvqmUpA5yxT51UzaoEP/view?ths=true','mywin','width=500,height=500')
-
+    window.open('https://docs.google.com/viewer?url=https://docs.google.com/document/d/1PAgK0Ajap4C0xnSVUjK9LLSeboZJcMOc3J8t7MgECes/export?format=pdf','mywin','width=500,height=500')
     })
 
 $('.social1').click((git) => {
