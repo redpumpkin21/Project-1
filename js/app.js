@@ -6,10 +6,10 @@ $.ajax("./json/projects.json")
         data.forEach((projects) => {
         const $div = $("<div  class='carousel-item'> ")
         $div.html(`
-        <h3>${projects.title}</h3>
-        <p>${projects.description}</p>
-        
-        <a href= ${projects.url}><img src= ${projects.image}> </a>`)
+        <h3>${projects.title}</h3>            
+        <a href= ${projects.url} target="_blank"><img src= ${projects.image}> </a>
+        <p class="description">${projects.description}</p> 
+        `)
 
         $('.carousel-inner').append($div)
         // $(div).find('.carousel-item').eq(1).addClass('active')
@@ -63,5 +63,6 @@ const $div = $('<div>').attr('class', 'carousel-item active carousel-item-center
 $('.carousel-inner').append($div)
 const $img = ("<img>")
 $('div.active').append('<img id="theImg" src="https://res.cloudinary.com/dx3a3l6k0/image/upload/v1632771634/17ECEABF-9306-441B-B481-A7C61060848E_1_105_c_zlxcc1.jpg" />')
-$('div.active').prepend("<p> <h8>Come with me and you'll be in a world of pure imagination</h8></p>")
-$('div.active').prepend('<h3>Me</h3>')
+$('div.active').prepend("<p> <h8>Software Engineer</h8></p>")
+$('div.active').prepend('<h3>Christopher Johnson</h3>')
+
