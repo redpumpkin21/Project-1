@@ -110,7 +110,12 @@ div.dropdown-menu#socialmenu{
 footer{
          display:none
      }
-
+#two{
+    text-align: center;
+}
+#three{
+    text-align: center;
+}
 
 @media only screen and (min-width: 768px){ 
        body{
@@ -139,11 +144,11 @@ footer{
         .intro{
             padding: 5%
         }
-        p {
+        .aboutme p {
             text-align: center;
        
             margin-top: 0;
-            margin-left: 23%;
+            margin-left: 20%;
             padding: 0;
             width: 60%;
             display: block;
@@ -265,6 +270,16 @@ footer{
             width: 100%;
             text-align: center;
         }
+        .aboutme p {
+            text-align: center;
+       
+            margin-top: 0;
+            margin-left: 2%;
+            padding: 0;
+            width: 100%;
+            display: block;
+            position: relative;
+            }
     }
     @media only screen and (min-width: 1440px){
         .carousel-inner img#theImg{
