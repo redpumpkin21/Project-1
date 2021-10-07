@@ -53,7 +53,7 @@ $('.social1').click((git) => {
     window.open("https://github.com/redpumpkin21")
 })
 $('.social2').click((linked) => {
-    window.open('https://www.linkedin.com/in/christopher-johnson-200b38214/')
+    window.open('https://www.linkedin.com/in/christopher-code-johnson/')
 })
 
     

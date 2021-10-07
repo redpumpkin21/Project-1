@@ -49,7 +49,16 @@ padding: 15%;
     height: 225px;
     max-width: 100%; 
 } */
-
+.carousel-control-prev-icon{
+    color:#171717!important;
+    background-color: #171717;
+    
+}
+.carousel-control-next-icon{
+    color:#171717!important;
+    background-color: #171717;
+    
+}
 header .navbar-light .navbar#border{
     border-color: #6c757d;
     background-color:  #6c757d;
@@ -281,6 +290,14 @@ footer{
             position: relative;
             }
     }
+    @media only screen and (min-width: 1024px){
+        .carousel-inner img#theImg{
+            padding: 0;
+            margin-left: 38%;
+            width: 300px;
+            height: 475px;
+        }
+    }
     @media only screen and (min-width: 1440px){
         .carousel-inner img#theImg{
             
@@ -311,7 +328,13 @@ footer{
         }
     }
     @media only screen and (min-width: 3072px){
-       
+        .carousel-inner img#theImg{
+            padding: 0;
+            margin-left: 40%;
+            width: 600px;
+            height: 600px;
+        }
+        
     }
     /* Note:
     - css grid forone columna nd three rows?
