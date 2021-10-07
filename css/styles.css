@@ -300,8 +300,8 @@ footer{
     }
     @media only screen and (min-width: 1440px){
         .carousel-inner img#theImg{
-            
-            width: 800px;
+            margin-left: 32%;
+            width: 500px;
             height: 477px;
         }
         p.description{
