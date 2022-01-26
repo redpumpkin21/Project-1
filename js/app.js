@@ -63,7 +63,7 @@ $('.social2').click((linked) => {
 const $div = $('<div>').attr('class', 'carousel-item active carousel-item-center')
 $('.carousel-inner').append($div)
 const $img = ("<img>")
-$('div.active').append('<img id="theImg" src="https://res.cloudinary.com/dx3a3l6k0/image/upload/v1632949987/8C51A9E4-4613-4454-93A8-2846246CE134_1_105_c_qhsvhm.jpg" />')
+$('div.active').append('<img id="theImg" src="https://res.cloudinary.com/dx3a3l6k0/image/upload/v1641422294/6F754EF0-CFD7-47CD-A9DC-D4D968A7C229_1_102_o_crbx1p.jpg" />')
 $('div.active').prepend("<p> <h8>Software Engineer</h8></p>")
 $('div.active').prepend('<h3>Christopher Johnson</h3>')
 

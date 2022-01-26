@@ -20,5 +20,12 @@
         "image": "https://res.cloudinary.com/dx3a3l6k0/image/upload/v1632780633/Screen_Shot_2021-09-27_at_6.09.45_PM_rmasxb.png",
         "description": "This project, I wanted to get my hands at Angular, so this project was the first one I did with Angular in the front end. I worked with a partner, they did the back end and and I did the front end. The hardes part was being able to show the actors and their names correctly, but I was able to solve this from research. Instead of *ngFor('shows of kdsrv.shows') I had to use *ngFor('actors of shows.actors'). Click the image to check it out!",
         "github": "https://github.com/CodingStephy/K-drama-Love-Frontend-"
+    },
+    {
+        "title": "VideoGame",
+        "url": "https://videogames-kohl.vercel.app/",
+        "image":"https://res.cloudinary.com/dx3a3l6k0/image/upload/v1643240877/Screen_Shot_2022-01-26_at_6.44.44_PM_slslke.png",
+        "description": "This site I wanted to focus on python/django for my back end creating new entries and using React Router 6 along with React Player and a search bar. It was interesting to learn the new ways React Router does thing and that was part of my biggest challenge but I learned pretty quickly.",
+        "github": "https://github.com/redpumpkin21/vgfront"
     }
 ]
